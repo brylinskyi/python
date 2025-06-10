@@ -9,6 +9,8 @@ number = random.randint(1, 100)
 print ("Вітаю! Я загадав число від 1 до 100. Спробуйте вгадати його за", limit, "спроб.")
 
 while True:
+	attemp += 1
+
 	if attemp > limit:
 		print("Ви використали всі спроби.")
 		break
